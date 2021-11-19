@@ -1,0 +1,9 @@
+{
+    "host" : "ec2-54-155-92-75.eu-west-1.compute.amazonaws.com",
+    "port" : 5432,
+    "user" : "rnebdmhcalrpcq",
+    "password" : "45c6dac869951a85fa7cd19e0e9203638d246ed4cb386f8bf15b52c13d31a5ff",
+    "database": "d1gae0m35kls71",
+
+    "api_port": "9000"
+}
