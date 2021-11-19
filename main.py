@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, request, jsonify, make_response
 import uuid
 from datetime import datetime, timedelta
@@ -178,4 +180,4 @@ def userUpdateAvatar(username, userData):
 
 
 if __name__ == '__main__':
-    app.run(port=config['api_port'])
+    app.run(port=int(os.environ.get('PORT', config['api_port'])))
