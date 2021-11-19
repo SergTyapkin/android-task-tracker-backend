@@ -1,6 +1,6 @@
 import requests
 
-base_path = "http://android-task-tracker-backend.herokuapp.com:19908"
+base_path = "http://android-task-tracker-backend.herokuapp.com"
 session = requests.Session()
 
 requests_total = 0
